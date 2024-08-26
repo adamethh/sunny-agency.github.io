@@ -1,0 +1,249 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    /* text-align: center; */
+    width: 100%;
+    height: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li .contact {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero .arrow {
+    margin-bottom: -50px;
+}
+
+.hero .orange-slice {
+    width: 200px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    /* grid-template-rows: auto auto; */
+}
+
+/* .services .service-item,
+.services .service-image {
+    padding: 40px;
+} */
+
+.services .service-item{
+    padding:100px 50px;
+}
+
+.services .service-item h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services .service-image img{
+    width:100%;
+}
+.services .service-item p {
+    margin-bottom: 20px;
+}
+
+.services .service-item a {
+    color: #fbd600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.design-photography {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+}
+
+.design-photography .design,
+.design-photography .photography {
+    padding: 40px;
+    text-align: center;
+}
+/* 
+.design-photography .design img,
+.design-photography .photography img {
+    width: 100px;
+    margin-bottom: 20px;
+} */
+
+
+.design-photography .design{
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.design-photography .photography{
+    background-image: url("./images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+}
+
+.design-photography .text{
+    width:300px;
+    margin: 180px auto;
+    /* text-align: center; */
+}
+
+.design-photography .text h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.design-photography .text p {
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    
+}
+
+.testimonials .testimonial-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.testimonials .testimonial-item img {
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials h4 {
+    margin: 20px 0 5px;
+    font-weight: bold;
+}
+
+.testimonials p:last-child {
+    color: #4d4d4d;
+    font-size: 0.9rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #90d4c5;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+footer .footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .footer-nav li {
+    margin: 0 15px;
+}
+
+footer .footer-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
